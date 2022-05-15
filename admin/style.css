@@ -1,0 +1,131 @@
+.tbox {position:absolute; display:none; padding:14px 17px; z-index:900}
+.tinner {padding:15px; -moz-border-radius:5px; border-radius:5px; background:#fff url(images/preload.gif) no-repeat 50% 50%; border-right:1px solid #333; border-bottom:1px solid #333}
+.tmask {position:absolute; display:none; top:0px; left:0px; height:100%; width:100%; background:#000; z-index:800}
+.tclose {position:absolute; top:0px; right:0px; width:30px; height:30px; cursor:pointer; background:url(images/close.png) no-repeat}
+.tclose:hover {background-position:0 -30px}
+
+body {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helvetica, Arial, Verdana, sans-serif;
+	font-size: 62.5%;
+	padding: 0 0 30px;
+	color: #4f4f4f;
+	}
+	
+#wrapper{
+	width:100%;
+		width:80%;
+-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.5);
+	margin:auto;
+}
+.warning{
+	color:#F00;
+	}
+
+#head{
+	width:100%;
+	background-color:#9C0;
+	border-bottom:5px solid #333;
+	height:70px;
+	color:#FFF;
+	margin-bottom:40px;}
+
+
+#content{
+	width:100%;
+	}
+	
+	#footer{
+		margin-top:30px;}
+a {
+	color: #2D6CBE;
+	text-decoration:none;
+	}
+
+input, select{
+	border:1px solid #CCC;
+	color:#06F;
+	height:30px;}
+
+a:hover {
+	color: #144789;
+	}
+
+h1, h2, h3, h4, h5, h6 {
+	letter-spacing: -.5px;
+	}
+
+h1 {
+	font-size: 2.6em;
+	margin: 1.2em 0 0;
+	}
+
+h2 {
+	font-size: 2em;
+	margin: 1.6em 0 .4em;
+	}
+
+p, li {
+	font-size: 1.3em;
+	line-height: 1.5em;
+	margin: .4em 0 1.2em;
+	}
+
+.msg {padding:10px; padding-left:35px;}
+.msg.warning {background:url("images/ico-warning.gif") 10px 50% no-repeat;}
+.msg.info {background:url("images/ico-info.gif") 10px 50% no-repeat;}
+.msg.done {background:url("images/ico-done.gif") 10px 50% no-repeat;}
+.msg.error {background:url("images/ico-delete.gif") 10px 50% no-repeat;}
+
+
+.msg.warning {border:2px solid #F2DD8C; background-color:#FFF5CC;}
+.msg.warning a {color:#df0000;} .msg.warning a:hover, .msg.warning a:active, .msg.warning a:focus {color:#303030;}
+.msg.info {border:2px solid #B8E2FB; background-color:#E8F6FF;}
+.msg.done {border:2px solid #BBDF8D; background-color:#EAF7D9;}
+.msg.error {border:2px solid #FFAEAE; background-color:#FEEBEB;}
+
+
+
+.edit{
+	background-image:url(images/edit.gif);
+	width:138px;
+	height:58px;
+	background-repeat:no-repeat;
+	background-color:#FFF;
+	border:1px solid #FFF;
+	position:relative;
+	left:330px;
+	top:-15px;
+	margin:10px 0 50px 0;
+	}
+
+	.edit:hover{
+	background-image:url(images/edit_hover.gif);
+	width:138px;
+	height:58px;
+	cursor:pointer;
+}
+.update{
+	background-image:url(images/updatebutton.gif);
+	width:138px;
+	height:58px;
+	background-repeat:no-repeat;
+	background-color:#FFF;
+	border:1px solid #FFF;
+	position:relative;
+	left:330px;
+	top:-15px;
+	margin:10px 0 50px 0;
+}
+.update:hover{
+	background-image:url(images/updatehover.gif);
+	width:138px;
+	height:58px;
+		cursor:pointer;
+}
+
+.grey{
+	color:#999;}
+	
